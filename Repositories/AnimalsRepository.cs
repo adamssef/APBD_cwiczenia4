@@ -19,7 +19,7 @@ public class AnimalsRepository : IAnimalsRepository
         
         using var cmd = new SqlCommand();
         cmd.Connection = con;
-        cmd.CommandText = "SELECT idAnimal, Name, Description, Category, Area ORDER BY Name";
+        cmd.CommandText = "SELECT * From Master.dbo.Animals ORDER BY Name";
         
         var dr = cmd.ExecuteReader();
         var animals = new List<Animal>();
@@ -46,7 +46,7 @@ public class AnimalsRepository : IAnimalsRepository
         
         using var cmd = new SqlCommand();
         cmd.Connection = con;
-        cmd.CommandText = "SELECT idAnimal, Name, Description, Category, Area WHERE idAnimal = @idAnimal";
+        cmd.CommandText = "SELECT idAnimal, Name, Description, Category, Area FROM Master.dbo.Animals WHERE idAnimal = @idAnimal";
         cmd.Parameters.AddWithValue("@IdAnimal", idAnimal);
         
         var dr = cmd.ExecuteReader();
@@ -72,7 +72,7 @@ public class AnimalsRepository : IAnimalsRepository
         
         using var cmd = new SqlCommand();
         cmd.Connection = con;
-        cmd.CommandText = "INSERT INTO Animal(Name, Description, Category, Area) VALUES(@Name, @Description, @Category, @Area)";
+        cmd.CommandText = "INSERT INTO Master.dbo.Animals(Name, Description, Category, Area) VALUES(@Name, @Description, @Category, @Area)";
         cmd.Parameters.AddWithValue("@idAnimal", animal.idAnimal);
         cmd.Parameters.AddWithValue("@Name", animal.Name);
         cmd.Parameters.AddWithValue("@Description", animal.Description);
@@ -91,7 +91,7 @@ public class AnimalsRepository : IAnimalsRepository
         
         using var cmd = new SqlCommand();
         cmd.Connection = con;
-        cmd.CommandText = "DELETE FROM Animal WHERE IdAnimal = @IdAnimal";
+        cmd.CommandText = "DELETE FROM Master.dbo.Animals WHERE IdAnimal = @IdAnimal";
         cmd.Parameters.AddWithValue("@IdAnimal", id);
         
         var affectedCount = cmd.ExecuteNonQuery();
@@ -105,7 +105,7 @@ public class AnimalsRepository : IAnimalsRepository
         
         using var cmd = new SqlCommand();
         cmd.Connection = con;
-        cmd.CommandText = "UPDATE Animal SET Name=@Name, Description=@Description, Category=@Category, Area=@Address, IndexNumber=@IndexNumber WHERE IdAnimal = @IdAnimal";
+        cmd.CommandText = "UPDATE Animals SET Name=@Name, Description=@Description, Category=@Category, Area=@Address WHERE IdAnimal = @IdAnimal";
         cmd.Parameters.AddWithValue("@IdAnimal", animal.idAnimal);
         cmd.Parameters.AddWithValue("@Name", animal.Name);
         cmd.Parameters.AddWithValue("@Description", animal.Description);

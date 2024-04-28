@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\adam3\\Downloads\\GakkoApp\\GakkoApp\\AnimalsAppHorizontal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{876A7650-B606-4ECD-AD0F-81668DC73CD8}|AnimalsAppHorizontal.csproj|c:\\users\\adam3\\downloads\\gakkoapp\\gakkoapp\\animalsapphorizontal\\repositories\\animalsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{876A7650-B606-4ECD-AD0F-81668DC73CD8}|AnimalsAppHorizontal.csproj|solutionrelative:repositories\\animalsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{876A7650-B606-4ECD-AD0F-81668DC73CD8}|AnimalsAppHorizontal.csproj|c:\\users\\adam3\\downloads\\gakkoapp\\gakkoapp\\animalsapphorizontal\\animalsapphorizontal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{876A7650-B606-4ECD-AD0F-81668DC73CD8}|AnimalsAppHorizontal.csproj|solutionrelative:animalsapphorizontal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{876A7650-B606-4ECD-AD0F-81668DC73CD8}|AnimalsAppHorizontal.csproj|c:\\users\\adam3\\downloads\\gakkoapp\\gakkoapp\\animalsapphorizontal\\repositories\\ianimalsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{876A7650-B606-4ECD-AD0F-81668DC73CD8}|AnimalsAppHorizontal.csproj|solutionrelative:repositories\\ianimalsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{876A7650-B606-4ECD-AD0F-81668DC73CD8}|AnimalsAppHorizontal.csproj|c:\\users\\adam3\\downloads\\gakkoapp\\gakkoapp\\animalsapphorizontal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{876A7650-B606-4ECD-AD0F-81668DC73CD8}|AnimalsAppHorizontal.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{876A7650-B606-4ECD-AD0F-81668DC73CD8}|AnimalsAppHorizontal.csproj|c:\\users\\adam3\\downloads\\gakkoapp\\gakkoapp\\animalsapphorizontal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{876A7650-B606-4ECD-AD0F-81668DC73CD8}|AnimalsAppHorizontal.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{876A7650-B606-4ECD-AD0F-81668DC73CD8}|AnimalsAppHorizontal.csproj|c:\\users\\adam3\\downloads\\gakkoapp\\gakkoapp\\animalsapphorizontal\\controllers\\animalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{876A7650-B606-4ECD-AD0F-81668DC73CD8}|AnimalsAppHorizontal.csproj|solutionrelative:controllers\\animalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AnimalsAppHorizontal",
+              "DocumentMoniker": "C:\\Users\\adam3\\Downloads\\GakkoApp\\GakkoApp\\AnimalsAppHorizontal\\AnimalsAppHorizontal.csproj",
+              "RelativeDocumentMoniker": "AnimalsAppHorizontal.csproj",
+              "ToolTip": "C:\\Users\\adam3\\Downloads\\GakkoApp\\GakkoApp\\AnimalsAppHorizontal\\AnimalsAppHorizontal.csproj",
+              "RelativeToolTip": "AnimalsAppHorizontal.csproj",
+              "ViewState": "AQIAAAEAAAAAAAAAAAA0wBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-28T08:33:15.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IAnimalsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\adam3\\Downloads\\GakkoApp\\GakkoApp\\AnimalsAppHorizontal\\Repositories\\IAnimalsRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IAnimalsRepository.cs",
+              "ToolTip": "C:\\Users\\adam3\\Downloads\\GakkoApp\\GakkoApp\\AnimalsAppHorizontal\\Repositories\\IAnimalsRepository.cs",
+              "RelativeToolTip": "Repositories\\IAnimalsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T08:25:27.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\adam3\\Downloads\\GakkoApp\\GakkoApp\\AnimalsAppHorizontal\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\adam3\\Downloads\\GakkoApp\\GakkoApp\\AnimalsAppHorizontal\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T08:25:11.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AnimalsController.cs",
+              "DocumentMoniker": "C:\\Users\\adam3\\Downloads\\GakkoApp\\GakkoApp\\AnimalsAppHorizontal\\Controllers\\AnimalsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AnimalsController.cs",
+              "ToolTip": "C:\\Users\\adam3\\Downloads\\GakkoApp\\GakkoApp\\AnimalsAppHorizontal\\Controllers\\AnimalsController.cs",
+              "RelativeToolTip": "Controllers\\AnimalsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T07:34:41.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AnimalsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\adam3\\Downloads\\GakkoApp\\GakkoApp\\AnimalsAppHorizontal\\Repositories\\AnimalsRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\AnimalsRepository.cs",
+              "ToolTip": "C:\\Users\\adam3\\Downloads\\GakkoApp\\GakkoApp\\AnimalsAppHorizontal\\Repositories\\AnimalsRepository.cs",
+              "RelativeToolTip": "Repositories\\AnimalsRepository.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAowBcAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T06:49:34.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\adam3\\Downloads\\GakkoApp\\GakkoApp\\AnimalsAppHorizontal\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\adam3\\Downloads\\GakkoApp\\GakkoApp\\AnimalsAppHorizontal\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-28T06:49:03.729Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

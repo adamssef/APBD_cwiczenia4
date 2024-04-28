@@ -36,3 +36,4 @@ C:\Users\adam3\Downloads\GakkoApp\GakkoApp\AnimalsAppHorizontal\obj\Debug\net8.0
 C:\Users\adam3\Downloads\GakkoApp\GakkoApp\AnimalsAppHorizontal\obj\Debug\net8.0\AnimalsAppHorizontal.pdb
 C:\Users\adam3\Downloads\GakkoApp\GakkoApp\AnimalsAppHorizontal\obj\Debug\net8.0\AnimalsAppHorizontal.genruntimeconfig.cache
 C:\Users\adam3\Downloads\GakkoApp\GakkoApp\AnimalsAppHorizontal\obj\Debug\net8.0\ref\AnimalsAppHorizontal.dll
+C:\Users\adam3\Downloads\GakkoApp\GakkoApp\AnimalsAppHorizontal\obj\Debug\net8.0\AnimalsAppHorizontal.sourcelink.json
