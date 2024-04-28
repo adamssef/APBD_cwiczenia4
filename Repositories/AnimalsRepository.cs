@@ -12,14 +12,32 @@ public class AnimalsRepository : IAnimalsRepository
         _configuration = configuration;
     }
     
-    public IEnumerable<Animal> GetAnimals()
+    public IEnumerable<Animal> GetAnimals(string orderBy="Name")
     {
         using var con = new SqlConnection(_configuration["ConnectionStrings:DefaultConnection"]);
         con.Open();
         
         using var cmd = new SqlCommand();
         cmd.Connection = con;
-        cmd.CommandText = "SELECT * From Master.dbo.Animals ORDER BY Name";
+
+        orderBy = orderBy.ToLower();
+        Console.WriteLine(orderBy);
+
+        switch (orderBy) {
+          case "category":
+            cmd.CommandText = "SELECT * From Master.dbo.Animals ORDER BY Category";
+            break;
+          case "area":
+            cmd.CommandText = "SELECT * From Master.dbo.Animals ORDER BY area";
+            break;
+          case "idAnimal":
+           cmd.CommandText = "SELECT * From Master.dbo.Animals ORDER BY idAnimal";
+           break;
+           default:
+            cmd.CommandText = "SELECT * From Master.dbo.Animals ORDER BY Name";
+            break;
+        }
+        
         
         var dr = cmd.ExecuteReader();
         var animals = new List<Animal>();

@@ -20,9 +20,16 @@ public class AnimalsController : ControllerBase
     /// </summary>
     /// <returns>List of students</returns>
     [HttpGet]
-    public IActionResult GetAnimals()
+    public IActionResult GetAnimals([FromQuery] string orderBy = "Name")
     {
-        var animals = _animalsService.GetAnimals();
+        var requestQuery = this.Request.Query;
+
+
+        orderBy = requestQuery.ContainsKey("orderBy") ? requestQuery["orderBy"].ToString() : "Name";
+
+
+
+        var animals = _animalsService.GetAnimals(orderBy);
         return Ok(animals);
     }
     

@@ -4,7 +4,7 @@ namespace AnimalsAppHorizontal.Services;
 
 public interface IAnimalsService
 {
-    IEnumerable<Animal> GetAnimals();
+    IEnumerable<Animal> GetAnimals(string orderBy = "Name");
     int CreateAnimal(Animal animal);
     Animal? GetAnimal(int idStudent);
     int UpdateAnimal(Animal animal);
