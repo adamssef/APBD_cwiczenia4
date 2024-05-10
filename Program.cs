@@ -7,16 +7,22 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
         
-        //Registering services
+        // Registering services
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
         builder.Services.AddControllers();
+        
+        // Register repository and service for Animals
         builder.Services.AddScoped<IAnimalsRepository, AnimalsRepository>();
         builder.Services.AddScoped<IAnimalsService, AnimalsService>();
 
+        // Register repository and service for Warehouse
+        builder.Services.AddScoped<IWarehouseRepository, WarehouseRepository>();  // Assuming you have a WarehouseRepository
+        builder.Services.AddScoped<IWarehouseService, WarehouseService>();
+
         var app = builder.Build();
 
-        //Configuring the HTTP request pipeline
+        // Configuring the HTTP request pipeline
         if (app.Environment.IsDevelopment())
         {
             app.UseSwagger();
