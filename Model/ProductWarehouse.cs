@@ -1,10 +1,14 @@
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AnimalsAppHorizontal.Model;
 
-public class ProductWarehouse
-{
+public class ProductWarehouse {
+    [Key] // Indicates that this is the primary key
+    [System.ComponentModel.DataAnnotations.Schema.DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    public int IdProductWarehouse { get; set; }
+
     [Required]
     public int IdProduct { get; set; }
 
@@ -18,9 +22,7 @@ public class ProductWarehouse
     [Required]
     public DateTime CreatedAt { get; set; }
 
-    // This may be needed if you implement price calculations or validations
     public double Price { get; set; }
 
-    // If you handle orders directly, you might need an order ID field
-    public int IdOrder { get; set; }
+    public int IdOrder { get; set; } // This is used to link back to the Order table
 }

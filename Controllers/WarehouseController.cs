@@ -1,5 +1,6 @@
 using System;
 using AnimalsAppHorizontal.Model;
+using AnimalsAppHorizontal.Repositories;
 using AnimalsAppHorizontal.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -53,7 +54,7 @@ public class WarehouseController : ControllerBase
             return BadRequest("Order date must be earlier than the provided creation date.");
         }
 
-        bool isFulfilled = _warehouseService.IsOrderFulfilled(data.IdOrder);
+        bool isFulfilled = _warehouseService.IsOrderFulfilled(_warehouseService.GetOrderIdByProductAndAmount(data.IdProduct, data.Amount));
         if (isFulfilled)
         {
             return BadRequest("Order is already fulfilled.");

@@ -13,4 +13,5 @@ public interface IWarehouseService
     void UpdateFulfilledAt(int idOrder);
     void CreateProductWarehouseRecord(int idWarehouse, int idProduct, int amount, int price, DateTime createdAt);
     int GetProductPrice(int idProduct);
+    public int GetOrderIdByProductAndAmount(int idProduct, int amount);
 }

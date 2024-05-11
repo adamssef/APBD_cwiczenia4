@@ -51,4 +51,8 @@ public class WarehouseService : IWarehouseService
     public int GetProductPrice(int idProduct) {
         return _warehouseRepository.GetProductPrice(idProduct);
     }
+
+    public int GetOrderIdByProductAndAmount(int idProduct, int Amount) {
+        return _warehouseRepository.GetOrderIdByProductAndAmount(idProduct, Amount);
+    }
 }

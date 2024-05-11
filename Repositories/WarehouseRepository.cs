@@ -83,7 +83,7 @@ public bool DoesOrderExist(int idProduct, int amount)
 
         using var connection = new SqlConnection(_configuration["ConnectionStrings:DefaultConnection"]);
         connection.Open();
-        var cmd = new SqlCommand("INSERT INTO [Master.dbo.Product_Warehouse] (IdWarehouse, IdProduct, IdOrder, Amount, Price, CreatedAt) OUTPUT INSERTED.Id VALUES (@IdWarehouse, @IdProduct, @IdOrder, @Amount, @Price, @CreatedAt)", connection);
+        var cmd = new SqlCommand("INSERT INTO [Product_Warehouse] (IdWarehouse, IdProduct, IdOrder, Amount, Price, CreatedAt) OUTPUT INSERTED.IdProductWarehouse VALUES (@IdWarehouse, @IdProduct, @IdOrder, @Amount, @Price, @CreatedAt)", connection);
         cmd.Parameters.AddWithValue("@IdWarehouse", idWarehouse);
         cmd.Parameters.AddWithValue("@IdProduct", idProduct);
         cmd.Parameters.AddWithValue("@Amount", amount);
